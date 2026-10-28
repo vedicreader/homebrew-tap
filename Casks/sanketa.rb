@@ -1,6 +1,6 @@
 cask "sanketa" do
-  version "0.2.4"
-  sha256 "2977727b6e199a66ba8fb8d33b327d0de75c5c3bef320f69e0bd51f9bd86a8c0"
+  version "0.2.5"
+  sha256 "8529661610ad90aeebb2d655bf71fe65bab54ab92fcd6993f2c2a30adce615e5"
 
   url "https://github.com/vedicreader/sanketa/releases/download/v#{version}/Sanketa-#{version}.zip"
   name "Sanketa"
