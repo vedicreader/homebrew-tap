@@ -47,3 +47,27 @@ brew uninstall --zap --cask abhyasa
 ```
 
 The zap does not remove your vault (`~/.vishalakshi/vault.db`), because other tools use it too.
+
+## Leela
+
+Leela is an editor for notebooks and code files, with a coding agent in the same window.
+
+```sh
+brew install --cask vedicreader/tap/leela
+```
+
+To get a new version:
+
+```sh
+brew upgrade --cask leela
+```
+
+Leela needs macOS 14 or later on Apple Silicon. Apple notarized the app. The cask installs uv. Leela uses uv to install the packages for lessons and new projects.
+
+To remove the app, its settings and its packages:
+
+```sh
+brew uninstall --zap --cask leela
+```
+
+The zap does not remove your vault (`~/.vishalakshi`), because other tools use it too.
