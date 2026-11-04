@@ -1,6 +1,6 @@
 cask "leela" do
-  version "0.1.14"
-  sha256 "9c4debb337fea4024356e203443c2d0874dd5aa9c36d3b8c579b01f3620b58d2"
+  version "0.1.15"
+  sha256 "30b0b4e9107d2aedcefa865c3b33529efb856c86f345ab28f7cb9482d5f0720b"
 
   url "https://github.com/vedicreader/leela/releases/download/#{version}/Leela-macOS.zip"
   name "Leela"
