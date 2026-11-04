@@ -1,8 +1,8 @@
 cask "leela" do
-  version "0.1.13"
-  sha256 "32b2bdcd6963cca2035ab0355fed4b10a198a0a2b676bd9c85b837f9b0f2c57b"
+  version "0.1.14"
+  sha256 "9c4debb337fea4024356e203443c2d0874dd5aa9c36d3b8c579b01f3620b58d2"
 
-  url "https://github.com/vedicreader/leela/releases/download/v#{version}/Leela-macOS.zip"
+  url "https://github.com/vedicreader/leela/releases/download/#{version}/Leela-macOS.zip"
   name "Leela"
   desc "Editor for notebooks and code files with a coding agent"
   homepage "https://github.com/vedicreader/leela"
