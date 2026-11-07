@@ -19,6 +19,12 @@ cask "leela" do
 
   app "Leela.app"
 
+  # Finder reads the file types an app opens (Open With) from LaunchServices; register again so a new type shows at once
+  postflight_steps do
+    run "/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister",
+        args: ["-f", "{{appdir}}/Leela.app"], must_succeed: false
+  end
+
   uninstall quit: "org.vedicreader.leela"
 
   # the vault (~/.vishalakshi) belongs to all the vishalakshi tools, so zap keeps it
