@@ -1,6 +1,6 @@
 cask "abhyasa" do
-  version "0.0.24"
-  sha256 "26771e7e48fa105f6bd529ce3c33e3ae107345f0adb5e7873f4cca36432854d8"
+  version "0.0.26"
+  sha256 "61f6460d0461f89fbf58a479ce2e71e142fa4e20898f3e23ad964721f36d4ea0"
 
   url "https://github.com/vedicreader/abhyasa/releases/download/mac-v#{version}/Abhyasa-#{version}.zip"
   name "Abhyasa"
